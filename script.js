@@ -3,7 +3,6 @@ const numOfBoxesInRow = 16;
 const boxSideLength = grid.clientHeight / numOfBoxesInRow;
 
 //creates the grid
-
 for (let i = 0; i < numOfBoxesInRow; i++) {
   for (let j = 0; j < numOfBoxesInRow; j++) {
     const box = document.createElement('div');
