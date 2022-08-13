@@ -13,3 +13,11 @@ for (let i = 0; i < numOfBoxesInRow; i++) {
     grid.appendChild(box);
   }
 }
+
+const boxes = document.querySelectorAll('.box');
+
+boxes.forEach(box => box.addEventListener('pointerenter', changeBoxColor));
+
+function changeBoxColor(e) {
+  e.target.style.backgroundColor = 'yellow';
+}
