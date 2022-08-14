@@ -1,6 +1,6 @@
 const grid = document.getElementById('grid');
 const numOfBoxesInRow = 16;
-const boxSideLength = grid.clientHeight / numOfBoxesInRow;
+const boxSideLength = grid.clientHeight / numOfBoxesInRow;      //in pixels
 
 //creates the grid
 for (let i = 0; i < numOfBoxesInRow; i++) {
