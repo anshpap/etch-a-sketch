@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 #grid {
   display: flex;
   flex-wrap: wrap;
@@ -9,4 +18,15 @@
 .box {
   box-sizing: border-box;
   border: 0.5px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#left-controls,
+#right-controls {
+  display: flex;
+  flex-direction: column;
 }

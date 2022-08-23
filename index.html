@@ -2,13 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Etch-a-Sketch</title>
+    <title>Etch A Sketch</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
   </head>
 
   <body>
-    <button id="change-grid-size">Change grid size</button>
-    <div id="grid"></div>
+    <h1>Etch A Sketch</h1>
+    <div class="container">
+      <div id="left-controls">
+        <button id="change-color">Change color</button>
+        <button id="rainbow-mode">Rainbow mode</button>
+        <button id="eraser">Eraser</button>
+      </div>
+
+      <div id="grid"></div>
+
+      <div id="right-controls">
+        <button id="change-grid-size">Change grid size</button>
+        <button id="clear-board">Clear board</button>
+      </div>
+    </div>
   </body>
 </html>
