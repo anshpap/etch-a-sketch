@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
 }
 
@@ -11,7 +11,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   width: 640px;
-  height: 640px;
+  height: auto;
   border: 1px solid black;
 }
 
